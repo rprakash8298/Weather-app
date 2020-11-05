@@ -1,0 +1,40 @@
+body{
+    width: auto;
+    background: url('../image/sky\ background.jpg') center/cover no-repeat fixed;
+    height: 100vh;
+}
+
+.inputStyle{
+    margin-top: 100px;
+}
+
+input{
+    border: 1px solid red;
+    background: rgba(255,255,255, 0.6);
+}
+h5{
+    font-family: 'Roboto Slab', serif;
+}
+.card{
+    background: rgba(255,255,255, 0.3);
+}
+.bi{
+    color: rgba(255,69,0, 0.6);
+}
+
+.loader {
+    margin: 5rem auto;
+    text-align: center; }
+    .loader img {
+      height: 4rem;
+      width: 4rem;
+      fill: #F59A83;
+      transform-origin: 44% 50%;
+      animation: rotate 1.5s infinite linear; }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0); }
+    100% {
+      transform: rotate(360deg); } }
+  
